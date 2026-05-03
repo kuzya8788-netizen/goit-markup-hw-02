@@ -2,16 +2,17 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #FFFFFF;
+  margin: 0;
 }
 
-ul {
+ul, ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-a {
-  text-decoration: none;
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
 }
 
 img {
@@ -20,14 +21,9 @@ img {
   height: auto;
 }
 
-h1, h2, h3, p {
-  margin: 0;
-}
+/* ЭТОТ БЛОК ОТВЕЧАЕТ ЗА ЦЕНТРИРОВАНИЕ */
 .container {
-  /* Ширина из макета */
   width: 1158px;
-  /* Центрирование: 0 сверху/снизу, auto по бокам */
   margin: 0 auto;
-  /* Внутренние отступы, чтобы на планшетах текст не касался экрана */
   padding: 0 15px;
 }
