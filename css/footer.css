@@ -1,4 +1,4 @@
-/* 1. Встановлюємо фоновий колір футера */
+/* 1. Фоновий колір футера */
 .footer {
   background-color: #2e2f42;
 }
@@ -8,11 +8,11 @@
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.33; /* Встановлено 1.33 (що відповідає 24px) */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  text-decoration: none; /* Прибираємо підкреслення */
+  text-decoration: none;
 }
 
 /* 3. Колір другої частини логотипа (Studio) */
@@ -27,3 +27,5 @@
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+/* ГЕОМЕТРІЯ (width, margin, padding) ВИДАЛЕНА ЗГІДНО З ВИМОГАМИ */
