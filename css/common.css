@@ -1,33 +1,46 @@
+/* Базові стилі для всього документа */
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
-  background-color: #FFFFFF;
-  margin: 0;
+  background-color: #ffffff;
 }
 
-ul, ol {
+/* Скидання стилів для списків (ul, ol) */
+ul,
+ol {
   list-style-type: none;
+  /* Прибираємо всі геометричні властивості, як того вимагає ТЗ */
   margin: 0;
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+/* Скидання стилів для посилань */
+a {
+  text-decoration: none;
+  /* Колір за замовчуванням буде наслідуватися від батьківських елементів */
+}
+
+/* Скидання стилів для заголовків */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
+/* Скидання для зображень (щоб не було зайвих відступів знизу) */
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
 }
 
-/* ЭТОТ БЛОК ОТВЕЧАЕТ ЗА ЦЕНТРИРОВАНИЕ */
+/* Клас .container — ТУТ НЕ МАЄ БУТИ width, margin або padding */
 .container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-a {
-  text-decoration: none;
+  /* Залишаємо порожнім або додаємо тільки декоративні властивості, 
+     якщо вони знадобляться (але не геометричні!) */
 }
