@@ -1,33 +1,40 @@
 .team {
-  background-color: #F4F4FD; /* Светло-серый фон для всей секции */
-  padding: 120px 0;
+  background-color: #f4f4fd;
 }
 
-.team-item {
-  background-color: #FFFFFF; /* Белый фон для каждой карточки */
-  /* Добавим тень, чтобы карточки выделялись на сером */
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-              0px 1px 1px rgba(46, 47, 66, 0.16), 
-              0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
-}
 .team-title {
+  /* Задаємо жирність 700 явно */
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center; /* Центрируем заголовок */
+  text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;
+  /* Видаляємо text-transform та всі margin/padding */
 }
 
 .team-item {
   background-color: #ffffff;
-  width: 264px;
-  margin: 0 auto 24px auto; /* Центрируем саму карточку */
+  /* Видаляємо width, margin, shadow та border-radius */
 }
 
-.team-card-content {
-  padding: 32px 0;
-  text-align: center; /* Центрируем имя и профессию */
+.team-name {
+  /* Точні налаштування для імен (h3) */
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
 }
+
+.team-role {
+  /* Точні налаштування для професій (p) */
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
+}
+
+/* Видаляємо .team-card-content, якщо там були тільки відступи */
