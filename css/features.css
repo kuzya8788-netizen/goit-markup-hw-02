@@ -1,18 +1,16 @@
+/* Видаляємо padding */
 .features {
-  padding: 120px 0;
+  background-color: #ffffff;
 }
 
+/* Повністю очищуємо заголовок від геометричних властивостей */
 .features-title {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .features-subtitle {
@@ -21,7 +19,6 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 
 .features-text {
